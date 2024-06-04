@@ -1,33 +1,21 @@
 import { css } from "@emotion/react";
 
 export const typography = {
-  t1: css`
-    font-size: 30px;
-    line-height: 1.35;
+  tiny: css`
+    font-size: 0.75rem;
+    line-height: 1rem;
   `,
-  t2: css`
-    font-size: 26px;
-    line-height: 1.34;
+  small: css`
+    font-size: 0.875rem;
+    line-height: 1.25rem;
   `,
-  t3: css`
-    font-size: 22px;
-    line-height: 1.4;
+  medium: css`
+    font-size: 1rem;
+    line-height: 1.5rem;
   `,
-  t4: css`
-    font-size: 20px;
-    line-height: 1.45;
-  `,
-  t5: css`
-    font-size: 17px;
-    line-height: 1.5;
-  `,
-  t6: css`
-    font-size: 15px;
-    line-height: 1.5;
-  `,
-  t7: css`
-    font-size: 13px;
-    line-height: 1.5;
+  large: css`
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   `,
 };
 

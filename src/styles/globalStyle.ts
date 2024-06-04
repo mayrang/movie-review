@@ -2,10 +2,15 @@ import { css } from "@emotion/react";
 import { colorPalette } from "./colorPallete";
 
 export default css`
+  @import url("http://fonts.googleapis.com/earlyaccess/nanumgothic.css");
+
   ${colorPalette}
   :root {
     --dimmed-zindex: 10;
     --alert-zindex: 11;
+  }
+  body {
+    font-famity: "Nanum Gothic", sans-serif;
   }
   a {
     color: inherit;

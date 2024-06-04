@@ -91,6 +91,8 @@ public class JavaProgram {
                 "    \"release_date\": \"1993-12-15\"\n" +
                 "  }\n" +
                 "]");
+            }else if(input.equals("check")){
+                System.out.println("check ok");
             }
            
         }
