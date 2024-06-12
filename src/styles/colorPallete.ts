@@ -28,7 +28,7 @@ export const colorPalette = css`
     --default-600: #d4d4d8;
     --default-700: #e4e4e7;
     --default-800: #f4f4f5;
-    --default-900: #fafafo;
+    --default-900: #fafafa;
 
     --primary-50: #001731;
     --primary-100: #002662;

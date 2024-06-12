@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import globalStyle from "@/styles/globalStyle";
 import { Global } from "@emotion/react";
+import RQProvider from "@/provider/RQProvider";
 
 export default function RootLayout({
   children,
@@ -12,8 +13,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Global styles={globalStyle} />
-      <body>{children}</body>
+      <body>
+        <RQProvider>
+          <Global styles={globalStyle} />
+          {children}
+        </RQProvider>
+      </body>
     </html>
   );
 }

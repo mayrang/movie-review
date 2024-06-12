@@ -6,6 +6,9 @@ const nextConfig = {
   compiler: {
     emotion: true,
   },
+  images: {
+    domains: ["localhost", "image.tmdb.org"],
+  },
 };
 
 export default nextConfig;

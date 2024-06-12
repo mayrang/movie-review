@@ -11,8 +11,9 @@ const BasicSearchInput = styled.input`
   box-sizing: border-box;
   border: none;
   outline: none;
+  color: ${colors.defaultShades[800]};
   background: none;
-  border-bottom: 2px solid ${colors.base.default};
+  border-bottom: 2px solid ${colors.defaultShades[600]};
   ${typography.medium}
 `;
 
@@ -59,6 +60,7 @@ const SearchIconStyle = css`
   transform: translateY(-50%);
   right: 1%;
   z-index: 10;
+  stroke: ${colors.defaultShades[600]};
 `;
 
 export default SearchInput;
